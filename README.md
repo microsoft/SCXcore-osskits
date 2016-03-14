@@ -1,9 +1,10 @@
 # System Center Cross Platform Provider for Operations Manager (Open Source Kits)
 
 The files in this directory reflect bundle files for each of our
-open-source OMI providers bundled with the System Center Cross
-Platform provider. Note that there are no hard-coded file paths
-here. Instead, filenames are determined dynamically.
+open-source OMI providers bundled with the [System Center Cross
+Platform provider](https://github.com/Microsoft/SCXcore). Note that
+there are no hard-coded file paths here. Instead, filenames are
+determined dynamically.
 
 At the time of this README file creation, this directory contains:
 
@@ -14,6 +15,8 @@ At the time of this README file creation, this directory contains:
     mysql-cimprov-1.0.1-1.universal.1.x86_64.sh
     mysql-oss-test.sh
     README.md
+
+Note that version numbers may change, and new cimprov kits may be added.
 
 The bundle creation software expects the following for each open-source
 provider:
@@ -40,13 +43,15 @@ If files are created in other locations, the package should remove the files
 as part of the uninstall (purge) process.
 
 Bundle creation software works as follows: For each *-oss-test.sh file,
-** Include the file itself into the bundle,
-** Include the associated i686.sh file for i386 builds,
-** Include the associated x86_64.sh file for x86_64 builds
+
+- Include the file itself into the bundle,
+- Include the associated i686.sh file for i386 builds,
+- Include the associated x86_64.sh file for x86_64 builds
 
 Bundle installation works as follows: For each *-oss-test.sh file,
-** Run the file.
-** If it returns 0, that means that the associated bundle file should be
+
+- Run the file.
+- If it returns 0, that means that the associated bundle file should be
 installed (otherwise, the associated bundle file is NOT installed).
 
 
