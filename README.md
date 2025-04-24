@@ -1,3 +1,16 @@
+## ⚠️ Deprecation & Archiving Notice ⚠️  
+
+ Thank you for your support and contributions to **System Center Cross Platform Provider for Operations Manager (Open Source Kits)**.  
+
+ This repository is now **deprecated** and will be **archived soon**.  
+
+ - **No further development, maintenance, or updates** will be provided.  
+ - **Bug fixes, security patches, and feature enhancements** are no longer planned.  
+ - After archiving, this repository will remain **available in read-only mode** for reference.  
+
+ For any questions, please refer to the existing documentation or community discussions.  
+
+ ---
 # System Center Cross Platform Provider for Operations Manager (Open Source Kits)
 
 The files in this directory reflect bundle files for each of our
